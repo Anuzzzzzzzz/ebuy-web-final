@@ -3,7 +3,6 @@ import { FiEdit } from "react-icons/fi";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { deleteProductById } from "../../redux/productSlice";
 
 const ProductList = () => {
   const dispatch = useDispatch();

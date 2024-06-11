@@ -2,7 +2,6 @@ import React from "react";
 import { FaOpencart } from "react-icons/fa6";
 import { MdOutlineCategory } from "react-icons/md";
 import { useSelector } from "react-redux";
-import ReactApexChart from "react-apexcharts";
 
 const Dashboard = () => {
   const productData = useSelector((state) => state.product.productList);
